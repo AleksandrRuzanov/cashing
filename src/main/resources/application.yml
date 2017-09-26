@@ -1,0 +1,13 @@
+spring:
+  cloud:
+    config:
+      enabled: false
+  data:
+    mongodb:
+      database: usersCashing
+  application.name: cashing
+
+logging:
+  config: "classpath:logback-spring.xml"
+  file: logs/cashing
+
